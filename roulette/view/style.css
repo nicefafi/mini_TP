@@ -1,0 +1,120 @@
+header{
+	display:flex;
+	flex-direction:column;
+	background-color:green;
+	color:white;
+	align-items:center;
+	justify-content: center;
+	height:15vh;
+	font-family: 'Ultra', sans serif;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	margin:1vw;
+}
+
+footer{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:green;
+	color:white;
+	height:15vh;
+	width:100%;
+	font-family: 'Ultra', sans serif;
+	
+}
+
+p {
+	font-family: 'Bree Serif', 'sans serif';
+}
+
+h3 {
+	font-family: 'Bree Serif', 'sans serif';
+}
+button{
+	border-radius:5px;
+	font-family: 'Ultra', sans serif;
+	margin-top:1%;
+}
+
+button:hover{
+	color:white;
+	background:green;
+}
+
+input{
+	margin-bottom:2%;
+	border-radius:10px;
+	width:50%;	
+}
+
+.parite{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.form{
+	width:25%;
+	height:70vh;
+	display:flex;
+	flex-direction:column;
+	margin-top:2%;
+	align-items:center;
+	margin-left:40%;
+}
+
+.pari{
+	height:70vh;
+	border:2px solid black;
+	margin-top:1%;
+	display:flex;
+}
+
+
+.pari p{
+	font-size:150%;
+	
+}
+.jeu{
+	height:1.5%;
+	width:1.5%;
+	margin-top:0.5vh;
+	background:grey;
+}
+
+.test{
+	color:green;
+}
+
+
+.resultat{
+	display:flex;
+	flex-direction:row;
+}
+
+.resultat p{
+	line-height:1vh;
+	margin-left:0.5vw;
+	font-family: 'Bree Serif', 'sans serif';
+}
+
+.formulaire{
+	text-align:center;
+	height: 70vvh;
+	margin-left:25vw;
+}
+
+#miser{
+		margin-top:50%;
+		margin-bottom:1px;
+		width:20vh;
+}
+
+#roulette{
+	width:30%;
+	height:70vh;
+}
